@@ -4,9 +4,9 @@ Feature: Adding new adress on mystore
     When opened site
     Then User is logged. email <email> and password <password> are inserted
     And new adress alias <alias>
-    And fuck cucumber firstname <firstname>, lastname <lastname>, company <company>
-    And another adding , vat number <vat number>, adress <adress>, adress complemention <adress complement>
-    And trolo city <city>, zip code <zip code>, country <country>, phone <phone> is added
+    And adding data firstname <firstname>, lastname <lastname>, company <company>
+    And adding more data , vat number <vat number>, adress <adress>, adress complemention <adress complement>
+    And adding more data <city>, zip code <zip code>, country <country>, phone <phone> is added
     And address is checked <alias> <firstname> <lastname> <company> <vat number> <adress> <adress complement> <city> <zip code> <country> <phone>
     And address is deleted
     And address deletion is checked
