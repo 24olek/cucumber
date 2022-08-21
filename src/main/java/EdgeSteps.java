@@ -59,7 +59,7 @@ public class EdgeSteps {
 
     }
 
-    @And("^fuck cucumber firstname (.*), lastname (.*), company (.*)")
+    @And("^adding data firstname (.*), lastname (.*), company (.*)")
     public void newClass(String firstname, String lastname, String company) {
         WebElement insertFirstname = driver.findElement(By.name("firstname"));
         insertFirstname.clear();
@@ -73,7 +73,7 @@ public class EdgeSteps {
 
     }
 
-    @And("^another adding , vat number (.*), adress (.*), adress complemention (.*)")
+    @And("^adding more data , vat number (.*), adress (.*), adress complemention (.*)")
     public void lol(String vatNumber, String adress, String adressComplement) {
         WebElement insertVatnumber = driver.findElement(By.name("vat_number"));
         insertVatnumber.clear();
@@ -86,7 +86,7 @@ public class EdgeSteps {
         insertAdress2.sendKeys(adressComplement);
     }
 
-    @And("^trolo city (.*), zip code (.*), country (.*), phone (.*) is added")
+    @And("^adding more data (.*), zip code (.*), country (.*), phone (.*) is added")
     public void newNew(String city, String zipCode, String country, String phone) {
         WebElement insertPostcode = driver.findElement(By.name("postcode"));
         insertPostcode.clear();
