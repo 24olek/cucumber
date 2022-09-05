@@ -1,13 +1,7 @@
-import java.lang.Thread;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.assertj.core.api.Assertions;
-import org.assertj.core.api.ListAssert;
-import org.assertj.core.util.Arrays;
-import org.checkerframework.framework.qual.DefaultQualifier;
-import org.hamcrest.CoreMatchers;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WebDriver;
